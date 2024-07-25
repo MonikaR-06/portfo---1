@@ -28,7 +28,7 @@ const ParticleBackground = () => {
       }}
       params={{
         background: {
-          color: "#152b61",
+          color: "#0A574E",
         },
         fullScreen: {
           enable: true,

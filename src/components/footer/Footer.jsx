@@ -12,7 +12,7 @@ const Footer = () => {
             class="mr-4 hover:underline md:mr-6 "
           >
             <BsGithub
-              style={{ color: "#87CEEB", width: "200%", height: "auto" }}
+              style={{ color: "#AFC9C1", width: "200%", height: "auto" }}
             />
           </a>
         </li>
@@ -22,7 +22,7 @@ const Footer = () => {
             class="mr-4 hover:underline md:mr-6"
           >
             <BsLinkedin
-              style={{ color: "#87CEEB", width: "200%", height: "auto" }}
+              style={{ color: "#AFC9C1", width: "200%", height: "auto" }}
             />
           </a>
         </li>

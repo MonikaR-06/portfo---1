@@ -22,7 +22,6 @@ const pages = [
   { text: "About", href: "/about" },
   { text: "Projects", href: "/projects" },
   { text: "Contact", href: "/contact" },
-  // { text: "Education", href: "https://github.com/Abhinav2011/my-portfolio" },
 ];
 const pageIcons = [
   HomeRoundedIcon,
@@ -43,10 +42,10 @@ const Header = () => {
   };
 
   return (
-    <AppBar position="sticky" sx={{ backgroundColor: "#152b61" }}>
+    <AppBar position="sticky" sx={{ backgroundColor: "#AFC9C1" , color:"black"}}>
       <Container maxWidth="xl">
         <Toolbar disableGutters>
-          <BoltIcon sx={{ display: { xs: "none", md: "flex" }, mr: 1 }} />
+          <BoltIcon sx={{ display: { xs: "none", md: "flex" }, mr: 1 , color:"black"}} />
           <Typography
             variant="h6"
             noWrap
@@ -58,7 +57,7 @@ const Header = () => {
               fontFamily: "monospace",
               fontWeight: 700,
               letterSpacing: ".3rem",
-              color: "inherit",
+              color: "black",
               textDecoration: "none",
             }}
           >
@@ -72,7 +71,7 @@ const Header = () => {
               aria-controls="menu-appbar"
               aria-haspopup="true"
               onClick={handleOpenNavMenu}
-              color="inherit"
+              color="black"
             >
               <MenuIcon />
             </IconButton>
@@ -116,11 +115,11 @@ const Header = () => {
               fontFamily: "monospace",
               fontWeight: 700,
               letterSpacing: ".3rem",
-              color: "inherit",
+              color: "black",
               textDecoration: "none",
             }}
           >
-            Abhinav Kumar
+            Rajkumaran
           </Typography>
           <Box
             justifyContent="flex-end"
@@ -142,7 +141,7 @@ const Header = () => {
                     onClick={handleCloseNavMenu}
                     sx={{
                       my: 2,
-                      color: "white",
+                      color: "black",
                       display: "flex",
                       fontFamily: "poppins",
                       fontSize: 16,
@@ -152,7 +151,7 @@ const Header = () => {
                   >
                     <Icon style={{ marginRight: "0.8rem" }} />
                     <Link to={page.href}>
-                      <Typography color="white">{page.text}</Typography>
+                      <Typography color="black">{page.text}</Typography>
                     </Link>
                   </Button>
                 </div>
